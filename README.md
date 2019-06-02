@@ -11,6 +11,8 @@ Easy peasy.
 Quote Bot will automatically create webhooks for each channel as it needs them.
 You don't need to worry about it.
 
+(Click here)[https://discordapp.com/oauth2/authorize?client_id=584448384308609034&permissions=536879104&scope=bot] to add the bot to your server!
+
 ## RUNNING LOCALLY
 
 Copy `config.sample.json` to `config.json`.
