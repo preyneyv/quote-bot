@@ -8,9 +8,19 @@ Then, the next message you send will have a link to the first one.
 
 Easy peasy.
 
-In the code, replace `'your bot token here'` with your bot token.
+Quote Bot will automatically create webhooks for each channel as it needs them.
+You don't need to worry about it.
 
-Then, just run `main.py` as a Python 3 script.
+## RUNNING LOCALLY
+
+Copy `config.sample.json` to `config.json`.
+
+Then, in `config.json`, insert your token in place of `"your token here"`.
+
+If you want to use a different emoji from :arrow_forward:, just paste it in
+`config.json` as well.
+
+When you're ready to go, just run `main.py` as a Python 3 script.
 
 ## LICENSE
 
