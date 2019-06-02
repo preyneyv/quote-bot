@@ -19,7 +19,7 @@ Copy `config.sample.json` to `config.json`.
 
 Then, in `config.json`, insert your token in place of `"your token here"`.
 
-If you want to use a different emoji from :arrow_forward:, just paste it in
+If you want to use a different emoji than :arrow_forward:, just paste it in
 `config.json` as well.
 
 When you're ready to go, just run `main.py` as a Python 3 script.
