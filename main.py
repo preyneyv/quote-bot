@@ -1,6 +1,7 @@
 from discord import Client, Embed
 from collections import defaultdict
 import asyncio
+import os
 import json
 
 client = Client()
@@ -9,9 +10,10 @@ client = Client()
 messages = defaultdict(dict)
 
 # load the config
-config = json.load(open('config.json'))
-emoji = config['emoji']
-token = config['token']
+# config = json.load(open('config.json'))
+emoji = u"▶"
+token = os.environ['token']
+# token = config['token']
 
 def tag(user):
     return "%s#%s" % (user.name, user.discriminator)
